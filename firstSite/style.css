@@ -1,0 +1,131 @@
+
+.navbar-nav {
+    margin-left: auto; /* Pushes the navigation links to the right */
+    padding: 0 20px;
+}
+
+.navbar-brand {
+    margin-right: 20px; /* Adds some spacing between the brand and links */
+    padding: 0 20px;
+}
+
+.navbar.logo{
+    color: rgb(234, 236, 248);
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: rgba(255, 255, 255) !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: rgb(128, 39, 83);
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(229, 129, 186);
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: rgb(229, 129, 186); 
+}
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+
+}
+
+
+#teaser {
+    position: relative;
+}
+
+
+#image-container {
+    text-align: right;
+}
+
+#image-container img {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.describe-movie{
+    position: relative;
+    color: rgb(128, 39, 83);
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+
+
+.describe-movie h1{
+    font-family: "Croissant One";
+    color: rgb(90, 31, 90);
+    padding-bottom: 20px;
+}
+
+.describe-movie .readmore{
+    color:rgb(128, 39, 83);
+    text-decoration: underline;
+
+}
+
+#slideshow{
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/* Custom CSS for the carousel */
+.carousel {
+    border-radius: 10px; /* Add rounded corners to the carousel */
+    overflow: hidden; /* Hide overflowing images */
+}
+
+.carousel-inner {
+    border-radius: 10px; /* Rounded corners for the inner content */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent background for captions */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    color: white; /* Text color for captions */
+}
+.carousel-item img {
+    object-fit: cover; /* Cover the entire slide */
+    height: 300px; /* Set a fixed height for the images */
+    width: 100%; /* Maintain full width */
+}
+
+.more-from-us h1{
+    text-align: center;
+    padding-bottom: 50px;
+    color:rgb(128, 39, 83)
+}
+
+#contact-us {
+    text-align: center;
+    color:rgb(128, 39, 83);
+    padding-bottom: 100px;
+}
+
+.main-content {
+    transition: transform 0s ease; /* Add a smooth transition effect */
+    transform: translateY(0); /* Initial position */
+    background-color: white;
+}

@@ -1,0 +1,29 @@
+.about-us h1{
+    text-align: center;
+    color: rgb(128, 39, 83);
+    padding: 50px 50px;
+}
+
+
+/* Custom CSS for the 3D carousel */
+.carousel {
+    perspective: 1000px; /* Add perspective for 3D effect */
+    overflow: hidden; /* Hide overflowing items */
+}
+
+.carousel-inner {
+    transform-style: preserve-3d; /* Preserve 3D transformations */
+    display: flex; /* Display items in a row */
+    transition: transform 0.5s ease; /* Add a smooth transition effect */
+}
+
+.carousel-item {
+    flex: 0 0 33.33%; /* Divide carousel into three equal parts */
+    margin-right: 10px; /* Add space between items */
+    transform: rotateY(0deg); /* Initialize items with no rotation */
+}
+
+/* Rotate active item to the front */
+.carousel-item.active {
+    transform: rotateY(0deg);
+}
