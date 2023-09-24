@@ -89,6 +89,7 @@ body {
 .describe-movie .readmore {
     color: rgb(128, 39, 83);
     text-decoration: underline;
+    font-family: Arial;
 }
 
 .describe-movie .readmore:hover {
