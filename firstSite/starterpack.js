@@ -4,7 +4,7 @@ const videoContainer = document.getElementById('video-container');
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
 
-    // Define the scroll threshold (adjust as needed)
+    // Define the scroll threshold 
     const scrollThreshold = 100;
 
     if (scrollPosition >= scrollThreshold) {
@@ -20,7 +20,7 @@ window.addEventListener('scroll', () => {
 
 window.addEventListener("scroll", function () {
     // Check the scroll position
-    if (window.scrollY > 300) { // Adjust the scrollY value as needed
+    if (window.scrollY > 300) { 
         // Add the class to hide the video description
         document.querySelector(".video-description").classList.add("hide-description");
     } else {

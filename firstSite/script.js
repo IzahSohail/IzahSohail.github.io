@@ -2,10 +2,10 @@
 const mainContent = document.querySelector('.main-content');
 
 // Calculate the offset from the top of the page where you want the div to start moving
-const scrollOffset = 20; // Adjust this value as needed
+const scrollOffset = 20; 
 
 // Calculate the maximum scroll limit
-const maxScroll = 100; // Adjust this value as needed
+const maxScroll = 100; 
 
 // Listen to the scroll event
 window.addEventListener('scroll', () => {

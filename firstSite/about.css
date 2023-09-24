@@ -33,7 +33,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 100px; /* Adjust font size as needed */
+    font-size: 100px; 
     font-family: "VT323";
     color: white;
     padding: 10px 20px; /* Add padding around the text */
@@ -42,7 +42,7 @@ body {
 
 @media (max-width: 768px) {
     .centered-text {
-        font-size: 60px; /* Adjust font size as needed */
+        font-size: 60px; 
         text-align: center;
     }
 
@@ -51,15 +51,15 @@ body {
 
 /* Our Story Styles */
 .our-story {
-    background-color: rgb(251, 244, 253); /* Background color for the container */
+    background-color: rgb(251, 244, 253); 
     padding: 20px; /* Add padding around the content */
     border-radius: 10px; /* Add rounded corners to the container */
-    text-align: center; /* Center-align the text */
-    font-family: "Share Tech Mono" ; /* Choose an appropriate font family */
-    line-height: 1.6; /* Adjust line height for better readability */
+    text-align: center; 
+    font-family: "Share Tech Mono" ; 
+    line-height: 1.6; 
     margin: 20px auto; /* Center the container horizontally */
     max-width: 800px; /* Set a maximum width for the container */
-    color: rgb(128, 39, 83); /* Text color */
+    color: rgb(128, 39, 83); 
 }
 
 .our-story p {
