@@ -75,6 +75,8 @@ body {
     color: rgb(90, 31, 90);
     padding-bottom: 20px;
     font-size: 40px; /* Reduced font size for responsiveness */
+    padding-left:20px;
+    padding-right:20px;
 }
 
 @media (min-width: 768px) {
