@@ -18,9 +18,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// JavaScript code to hide the video description after a certain scroll event
-// Add an event listener to the scroll event
-
 window.addEventListener("scroll", function () {
     // Check the scroll position
     if (window.scrollY > 300) { // Adjust the scrollY value as needed
