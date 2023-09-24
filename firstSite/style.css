@@ -116,15 +116,16 @@ body {
 /* Contact Us Styles */
 #contact-us {
     background-color: rgb(251, 244, 253);
-    padding: 80px 0;
     text-align: center;
     color: rgb(87, 6, 140);
+    width:100%
 }
 
 .section-title {
     font-size: 46px;
     font-family: "VT323";
     font-weight: bold;
+    padding-top: 30px;
     margin-bottom: 30px;
     color: rgb(87, 6, 140); 
 }

@@ -33,3 +33,63 @@
 .navbar-nav .nav-item.active .nav-link {
     color: rgb(229, 130, 186); 
 }
+
+
+
+/* Center the video horizontally and vertically */
+.video-teaser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    background-color: #ffffff; 
+  }
+  
+  /* Style the video element */
+  .video-teaser video {
+    width: 70%;
+    max-height: 100%;
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+/* Center the main content */
+.video-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    text-align: center; /* Align text to the center */
+    height: 100vh; /* Make the container occupy the full viewport height */
+}
+
+.video-description h1:first-child {
+    font-family: "VT323";
+    font-size: 30px; 
+    color: rgb(87, 6, 140);
+}
+
+.video-description h1 {
+    font-size: 5rem; 
+    font-family: "Nanum Pen Script";
+    color: rgb(87, 6, 140);
+    margin-top: 10px; /* Add margin between the two headings */
+    margin-bottom: 10px;
+}
+
+.video-description p {
+    font-size: 1rem; 
+    font-family: "Share Tech Mono";
+    color: rgb(128, 39, 83);
+    margin-bottom: 10px; /* Add margin between the headings and the paragraph */
+}
+
+
+
+@media (min-width: 768px) {
+    /* Apply this style for screens wider than 768px */
+    .video-description {
+        padding: 50px 150px 30px 150px; /* Top Right Bottom Left */
+    }
+}
+
