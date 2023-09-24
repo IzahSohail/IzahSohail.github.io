@@ -90,21 +90,6 @@ body {
     overflow: hidden;
     padding-bottom: 50px;
 }
-/* .carousel-inner {
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
-    color: white;
-} */
 .carousel-item img {
     object-fit: cover;
     height: 500px;
