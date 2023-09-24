@@ -60,15 +60,30 @@ body {
     font-size: 1rem;
     text-align: center;
     font-family: "Share Tech Mono";
-    padding: 50px 200px 0px 200px; /* Top Right Bottom Left */
-
+    padding: 50px 20px; /* Top and Bottom padding reduced for responsiveness */
 }
+
+@media (min-width: 768px) {
+    /* Apply this style for screens wider than 768px */
+    .describe-movie {
+        padding: 50px 200px; /* Top Right Bottom Left */
+    }
+}
+
 .describe-movie h1 {
     font-family: "Nanum Pen Script";
     color: rgb(90, 31, 90);
     padding-bottom: 20px;
-    font-size: 80px;
+    font-size: 40px; /* Reduced font size for responsiveness */
 }
+
+@media (min-width: 768px) {
+    /* Apply this style for screens wider than 768px */
+    .describe-movie h1 {
+        font-size: 80px; /* Original font size */
+    }
+}
+
 .describe-movie .readmore {
     color: rgb(128, 39, 83);
     text-decoration: underline;
