@@ -83,7 +83,7 @@
 /* Style the paragraph */
 .video-description p {
     font-size: 1rem;
-    font-family: "Share Tech Mono";
+    font-family: "Arial";
     color: rgb(128, 39, 83);
     margin-bottom: 10px; /* Add margin between the headings and the paragraph */
 }
