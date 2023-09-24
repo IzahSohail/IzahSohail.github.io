@@ -44,7 +44,7 @@
     height: 80vh;
     background-color: #ffffff;
     padding-bottom: 40px;
-    transition: transform 0.8s ease; /* Add a smooth transition */
+    transition: transform 0.8s ease; /* add smooth transition */
 }
 
 .video-teaser video {
@@ -52,8 +52,6 @@
     max-height: 100%;
     height: auto;
 }
-
-/* ... (your existing CSS styles) ... */
 
 /* Center the main content */
 .video-description {
