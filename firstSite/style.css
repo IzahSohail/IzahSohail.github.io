@@ -1,102 +1,86 @@
-
+/* Navbar Styles */
 .navbar-nav {
-    margin-left: auto; /* Pushes the navigation links to the right */
+    margin-left: auto;
     padding: 0 20px;
 }
-
-.navbar-brand {
-    margin-right: 20px; /* Adds some spacing between the brand and links */
+.navbar-brand, .navbar.logo {
+    margin-right: 20px;
     padding: 0 20px;
-}
-
-.navbar.logo{
     color: rgb(234, 236, 248);
+    font-family: "VT323";
 }
 
 .navbar.navbar-expand-lg.navbar-light.bg-light {
     background-color: rgba(255, 255, 255) !important;
 }
-
 .navbar-nav .nav-item .nav-link {
-    color: rgb(128, 39, 83);
+    color: rgb(87, 6, 140);
+    font-family: "share tech mono";
 }
 .navbar-nav .nav-item .nav-link:hover {
-    color: rgb(229, 129, 186);
+    color: rgb(229, 130, 186);
 }
-
 .navbar-nav .nav-item.active .nav-link {
-    color: rgb(229, 129, 186); 
+    color: rgb(229, 130, 186); 
 }
 
-
-body{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 100%;
-
+/* Body Styles */
+body {
+    background-color: #fff;
+    height: auto;
 }
 
-
+/* Teaser Styles */
 #teaser {
     position: relative;
 }
 
-
 #image-container {
     text-align: right;
 }
-
 #image-container img {
-    width:100%;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
-.describe-movie{
+/* Movie Description Styles */
+.describe-movie {
     position: relative;
     color: rgb(128, 39, 83);
     font-size: 1rem;
     text-align: center;
-    padding-bottom: 100px;
-    padding-top: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 50px 200px 0px 200px; /* Top Right Bottom Left */
 
 }
-
-
-
-.describe-movie h1{
-    font-family: "Croissant One";
+.describe-movie h1 {
+    font-family: "Nanum Pen Script";
     color: rgb(90, 31, 90);
     padding-bottom: 20px;
+    font-size: 80px;
 }
-
-.describe-movie .readmore{
-    color:rgb(128, 39, 83);
+.describe-movie .readmore {
+    color: rgb(128, 39, 83);
     text-decoration: underline;
-
 }
 
-#slideshow{
-    padding-bottom: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
+/* Slideshow Styles */
+#slideshow {
+    padding: 0px 200px; /* Top Bottom Left Right */
+    padding-bottom: 50px;
 }
 
-/* Custom CSS for the carousel */
+/* Carousel Styles */
 .carousel {
-    border-radius: 10px; /* Add rounded corners to the carousel */
-    overflow: hidden; /* Hide overflowing images */
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 50px;
 }
-
-.carousel-inner {
-    border-radius: 10px; /* Rounded corners for the inner content */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+/* .carousel-inner {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent background for captions */
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 10px;
     border-radius: 5px;
     text-align: center;
@@ -104,28 +88,56 @@ body{
     left: 0;
     right: 0;
     position: absolute;
-    color: white; /* Text color for captions */
-}
+    color: white;
+} */
 .carousel-item img {
-    object-fit: cover; /* Cover the entire slide */
-    height: 300px; /* Set a fixed height for the images */
-    width: 100%; /* Maintain full width */
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
 }
 
-.more-from-us h1{
-    text-align: center;
-    padding-bottom: 50px;
-    color:rgb(128, 39, 83)
-}
-
+/* Contact Us Styles */
 #contact-us {
+    background-color: rgb(251, 244, 253);
+    padding: 80px 0;
     text-align: center;
-    color:rgb(128, 39, 83);
-    padding-bottom: 100px;
+    color: rgb(87, 6, 140);
 }
 
+.section-title {
+    font-size: 46px;
+    font-family: "VT323";
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: rgb(87, 6, 140); 
+}
+
+.contact-item {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: "Share Tech Mono";
+}
+
+.contact-label {
+    display: inline-block;
+    width: 100px; 
+    font-family: "Share Tech Mono";
+}
+
+.contact-link {
+    color: rgb(128, 39, 83);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: rgb(229, 130, 186); /* Hover color*/
+}
+
+
+/* Main Content Styles */
 .main-content {
-    transition: transform 0s ease; /* Add a smooth transition effect */
-    transform: translateY(0); /* Initial position */
+    transition: transform 1s ease;
+    transform: translateY(0);
     background-color: white;
 }

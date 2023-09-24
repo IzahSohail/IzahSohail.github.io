@@ -1,29 +1,68 @@
-.about-us h1{
+/* Navbar Styles */
+.navbar-nav {
+    margin-left: auto;
+    padding: 0 20px;
+}
+.navbar-brand, .navbar.logo {
+    margin-right: 20px;
+    padding: 0 20px;
+    color: rgb(234, 236, 248);
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: rgba(255, 255, 255) !important;
+}
+.navbar-nav .nav-item .nav-link {
+    color: rgb(128, 39, 83);
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(229, 129, 186);
+}
+.navbar-nav .nav-item.active .nav-link {
+    color: rgb(229, 129, 186); 
+}
+
+/* Body Styles */
+body {
+    background-color: #fff;
+    height: auto;
+
+}
+
+/* Slideshow Styles */
+#slideshow {
+    padding: 0px 200px; /* Top Bottom Left Right */
+}
+
+/* Carousel Styles */
+.carousel {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.carousel-inner {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    color: white;
+}
+.carousel-item img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+
+
+/* Contact Us Styles */
+#contact-us {
     text-align: center;
     color: rgb(128, 39, 83);
-    padding: 50px 50px;
-}
-
-
-/* Custom CSS for the 3D carousel */
-.carousel {
-    perspective: 1000px; /* Add perspective for 3D effect */
-    overflow: hidden; /* Hide overflowing items */
-}
-
-.carousel-inner {
-    transform-style: preserve-3d; /* Preserve 3D transformations */
-    display: flex; /* Display items in a row */
-    transition: transform 0.5s ease; /* Add a smooth transition effect */
-}
-
-.carousel-item {
-    flex: 0 0 33.33%; /* Divide carousel into three equal parts */
-    margin-right: 10px; /* Add space between items */
-    transform: rotateY(0deg); /* Initialize items with no rotation */
-}
-
-/* Rotate active item to the front */
-.carousel-item.active {
-    transform: rotateY(0deg);
+    padding: 50px 100px;
 }
