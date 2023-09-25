@@ -97,6 +97,16 @@ body {
 }
 
 /* Slideshow Styles */
+.more-from-us h1{
+    font-family: "VT323";
+    color: rgb(87, 6, 140);
+    text-align: center;
+    align-items: center;
+    padding-bottom: 40px;
+    font-size: 3rem;
+}
+
+
 #slideshow {
     padding: 0px 200px; /* Top Bottom Left Right */
     padding-bottom: 50px;
