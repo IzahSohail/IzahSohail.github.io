@@ -1,101 +1,97 @@
-/* Resetting default margin and padding for all elements */
+/* Reset default margin, padding, and box-sizing for all elements */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Styling for the entire HTML document */
 html {
-    /* Set height of the html page to 100% of the browser height */
-    height: 100%;
-    /* Hide horizontal scroll */
-    overflow-x: hidden;
-    font-family: 'Helvetica', sans-serif;
+    height: 100%; /* Set the height of the HTML page to 100% of the browser height */
+    overflow-x: hidden; /* Hide horizontal scroll */
+    font-family: 'Helvetica', sans-serif; /* Define the font for the entire page */
 }
 
+/* Styling for the body of the document */
 body {
-    /* Set height of the body to 100% -- separated out of html to allow scrollTo animation */
-    height: 100%;
-    margin: 0px;
+    height: 100%; /* Set the height of the body to 100% */
+    margin: 0px; /* Reset margin to zero */
 }
 
-/* Navigation Bar */
+/* Navigation Bar styling */
 #nav {
-    /* Position the navigation bar on the right side */
-    position: fixed;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-180%);
-    z-index: 1;
-   
-    padding: 10px; /* Add some padding for better visibility */
+    position: fixed; /* Fix the navigation bar in place */
+    right: 20px; /* Position it 20 pixels from the right */
+    top: 50%; /* Position it vertically at 50% from the top */
+    transform: translateY(-180%); /* Move it up by 180% of its height */
+    z-index: 1; /* Set the stacking order of the navigation bar */
+    padding: 10px; /* Add padding for better visibility */
     border-radius: 5px; /* Add rounded corners */
 }
 
+/* Styling for navigation links */
 .nav-link {
-    display: block;
-    margin: 10px 0;
-    text-align: right;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.5s;
-    font-family: 'Gill Sans', 'Gill Sans MT';
+    display: block; /* Display links as block elements */
+    margin: 10px 0; /* Add margin for spacing */
+    text-align: right; /* Align text to the right */
+    text-decoration: none; /* Remove underline from links */
+    color: rgb(255, 255, 255); /* Set text color to white */
+    font-weight: bold; /* Set font weight to bold */
+    font-size: 16px; /* Set font size */
+    transition: color 0.5s; /* Add smooth color transition on hover */
+    font-family: 'Gill Sans', 'Gill Sans MT'; /* Define font family */
 }
 
 /* Style for the navigation links on hover */
 .nav-link:hover {
-    color: rgb(61, 129, 90);
+    color: rgb(61, 129, 90); /* Change text color on hover */
 }
 
-/* Parallax: Mountain and Ocean sections; */
+/* Parallax section styling */
 #flag, #mosque, #North, #Food, #people {
-    /* Set height of div to 100% */
-    height: 100%;
-    /* The bottom three background CSS settings create a parallax effect */
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+    height: 100%; /* Set height of div to 100% */
+    background-attachment: fixed; /* Fix background image while scrolling */
+    background-size: cover; /* Scale background image to cover the container */
+    background-position: center; /* Center the background image */
 }
 
+/* Styling for the flag section */
 #flag {
-    /* Set background image of the mountain section using url() function */
-    background-image: url('images/flag.jpg');
+    background-image: url('images/flag.jpg'); /* Set background image using URL */
 }
 
+/* Styling for the mosque section */
 #mosque {
-    /* Set background image of the ocean section using url() function */
-    background-image: url('images/mosque.jpg');
+    background-image: url('images/mosque.jpg'); /* Set background image using URL */
 }
 
+/* Styling for the North section */
 #North {
-    /* Set background image of the north section using url() function */
-    background-image: url('images/north.jpg');
+    background-image: url('images/north.jpg'); /* Set background image using URL */
 }
 
+/* Styling for the people section */
 #people {
-    /* Set background image of the people section using url() function */
-    background-image: url('images/people.jpg');
+    background-image: url('images/people.jpg'); /* Set background image using URL */
 }
 
+/* Styling for the Food section */
 #Food {
-    /* Set background image of the food section using url() function */
-    background-image: url('images/food.jpg');
+    background-image: url('images/food.jpg'); /* Set background image using URL */
 }
 
+/* Styling for the intro section */
 #intro {
-    position: absolute; /* Change to absolute positioning */
+    position: absolute; /* Position element absolutely */
     width: 100%; /* Make the div as wide as the viewport */
     height: 100%; /* Make the div as tall as the viewport */
-    text-align: center;
+    text-align: center; /* Center-align text */
     display: flex; /* Use flexbox for centering */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
 }
 
 /* Add styles for the typing animation */
-
 .typing-animation {
     overflow: hidden; /* Hide overflowing text */
     white-space: nowrap; /* Prevent text from wrapping */
@@ -103,51 +99,51 @@ body {
     animation: typing 5s steps(40, end), blink-caret 0.5s step-end 3.5; /* Typing and cursor animation */
 }
 
+/* Keyframes for the typing animation */
 @keyframes typing {
     from {
-        width: 0;
+        width: 0; /* Start with zero width */
     }
     to {
-        width: 100%;
+        width: 100%; /* End with full width */
     }
 }
 
+/* Keyframes for the cursor animation */
 @keyframes blink-caret {
     from, to {
-        border-color: transparent;
+        border-color: transparent; /* Make cursor transparent at the beginning and end */
     }
     50% {
-        border-color: rgb(69, 69, 69);
+        border-color: rgb(69, 69, 69); /* Show cursor as a border color at 50% */
     }
 }
 
-
-
+/* Styling for the intro-text */
 #intro-text {
-    color: white;
-    font-size: 30px;
+    color: white; /* Set text color to white */
+    font-size: 30px; /* Set font size */
 }
 
-/* Text sections */
+/* Styling for the text sections */
 .text-section {
-    /* Center text in the middle of the browser using flexbox */
-    height: 100vh;
-    background-position:center ;
-    background-attachment: fixed;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100vh; /* Set height to 100% of the viewport height */
+    background-position: center; /* Center background image */
+    background-attachment: fixed; /* Fix background image while scrolling */
+    background-size: cover; /* Scale background image to cover the container */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     background-color: rgb(51, 108, 40); /* Semi-transparent black background */
 }
 
-
+/* Styling for the text within text sections */
 .text {
-    width: 70%;
-    padding: 20px; /* Add some padding for better readability */
-    color: white; /* Text color */
-    font-size: 20px; /* Font size */
+    width: 70%; /* Set width of the text section */
+    padding: 20px; /* Add padding for spacing */
+    color: white; /* Set text color to white */
+    font-size: 20px; /* Set font size */
     text-align: center; /* Center-align the text */
-    line-height: 1.5; /* Line height for better readability */
+    line-height: 1.5; /* Set line height for better readability */
     border-radius: 5px; /* Add rounded corners */
 }

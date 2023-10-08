@@ -1,4 +1,4 @@
-// JavaScript for the typing animation (optional)
+//typing animation 
 document.addEventListener('DOMContentLoaded', function () {
     const introText = document.querySelector('.typing-animation');
 
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Get references to the parallax sections
+    
     const flagSection = document.getElementById("flag");
     const mosqueSection = document.getElementById("mosque");
     const northSection = document.getElementById("North");
