@@ -1,0 +1,153 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* Set height of the html page to 100% of the browser height */
+    height: 100%;
+    /* Hide horizontal scroll */
+    overflow-x: hidden;
+    font-family: 'Helvetica', sans-serif;
+}
+
+body {
+    /* Set height of the body to 100% -- separated out of html to allow scrollTo animation */
+    height: 100%;
+    margin: 0px;
+}
+
+/* Navigation Bar */
+#nav {
+    /* Position the navigation bar on the right side */
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-180%);
+    z-index: 1;
+   
+    padding: 10px; /* Add some padding for better visibility */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+.nav-link {
+    display: block;
+    margin: 10px 0;
+    text-align: right;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+/* Style for the navigation links on hover */
+.nav-link:hover {
+    color: rgb(61, 129, 90);
+}
+
+/* Parallax: Mountain and Ocean sections; */
+#flag, #mosque, #North, #Food, #people {
+    /* Set height of div to 100% */
+    height: 100%;
+    /* The bottom three background CSS settings create a parallax effect */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#flag {
+    /* Set background image of the mountain section using url() function */
+    background-image: url('images/flag.jpg');
+}
+
+#mosque {
+    /* Set background image of the ocean section using url() function */
+    background-image: url('images/mosque.jpg');
+}
+
+#North {
+    /* Set background image of the north section using url() function */
+    background-image: url('images/north.jpg');
+}
+
+#people {
+    /* Set background image of the people section using url() function */
+    background-image: url('images/people.jpg');
+}
+
+#Food {
+    /* Set background image of the food section using url() function */
+    background-image: url('images/food.jpg');
+}
+
+#intro {
+    position: absolute; /* Change to absolute positioning */
+    width: 100%; /* Make the div as wide as the viewport */
+    height: 100%; /* Make the div as tall as the viewport */
+    text-align: center;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Add styles for the typing animation */
+
+.typing-animation {
+    overflow: hidden; /* Hide overflowing text */
+    white-space: nowrap; /* Prevent text from wrapping */
+    border-right: 2px solid transparent; /* Create a cursor effect */
+    animation: typing 5s steps(40, end), blink-caret 0.5s step-end 3.5; /* Typing and cursor animation */
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: rgb(69, 69, 69);
+    }
+}
+
+
+
+#intro-text {
+    color: white;
+    font-size: 30px;
+}
+
+/* Text sections */
+.text-section {
+    /* Center text in the middle of the browser using flexbox */
+    height: 100vh;
+    background-position:center ;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 108, 40); /* Semi-transparent black background */
+}
+
+
+.text {
+    width: 70%;
+    padding: 20px; /* Add some padding for better readability */
+    color: white; /* Text color */
+    font-size: 20px; /* Font size */
+    text-align: center; /* Center-align the text */
+    line-height: 1.5; /* Line height for better readability */
+    border-radius: 5px; /* Add rounded corners */
+}
