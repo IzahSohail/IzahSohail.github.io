@@ -19,6 +19,7 @@ We all brainstormed for different ideas and planned the process and wireframe of
 - Audio Recording and Video Shooting 
 
 This part took a lot of effort and time. We had to shoot and reshoot a lot of parts until we got what we wanted. It was a fun process with a lot of trial and error because we are not experts. We had to ask some of our friends to act and we had to stay up late at night to shoot when the Art center was empty. We also had to get some things from the prop loan in the Art center. For the audio we used the zoom recording and for the actual filming we used a phone and a tripod. 
+
 I had to work on a shot list, at least to imagine how things will work out. Then I had to map out how the story line will change and how that will be edited. Then, I moved on to the shooting part which took many hours and a lot of time. I then started editing audio and the video which also took me a lot of time.  
 
    
