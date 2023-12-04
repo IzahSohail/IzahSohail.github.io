@@ -12,14 +12,14 @@ Fever Dream invites viewers to contemplate the thin boundary between reality and
 
 
 ## Process 
+
+We all brainstormed for different ideas and planned the process and wireframe of how it will work. Then we divided the work among ourselves. We all worked on the README file. 
+
+**Shahd**: 
 - Audio Recording and Video Shooting 
 
 This part took a lot of effort and time. We had to shoot and reshoot a lot of parts until we got what we wanted. It was a fun process with a lot of trial and error because we are not experts. We had to ask some of our friends to act and we had to stay up late at night to shoot when the Art center was empty. We also had to get some things from the prop loan in the Art center. For the audio we used the zoom recording and for the actual filming we used a phone and a tripod. 
-
-## Work Distribution:
-We all brainstormed for different ideas and planned the process and wireframe of how it will work. Then we divided the work among ourselves. We all worked on the README file. 
-
-**Shahd**: I had to work on a shot list, at least to imagine how things will work out. Then I had to map out how the story line will change and how that will be edited. Then, I moved on to the shooting part which took many hours and a lot of time. I then started editing audio and the video which also took me a lot of time.  
+I had to work on a shot list, at least to imagine how things will work out. Then I had to map out how the story line will change and how that will be edited. Then, I moved on to the shooting part which took many hours and a lot of time. I then started editing audio and the video which also took me a lot of time.  
 
    
 **Izah**: After collaboratively working on choosing a concept and story, my primary role was working on the website with Jiho. Given that the essence of our film revolves around a psychological experience, I aimed to ensure that the website's interface seamlessly complemented this theme. I worked a lot with JavaScript for this assignment to add more interactivity and create a more immersive experience. One of these interative features is the slider on the home page. The initial arrow (pill) position is strategically set as a percentage of the screen width. As users slide halfway across the slider, several dynamic changes occur:
