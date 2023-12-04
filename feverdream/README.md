@@ -2,6 +2,13 @@
 Communications lab video assignment
 
 ## Project Name: Fever Dream 
+"Fever Dream" is a suspenseful and mind-bending short film that delves into the mysterious realms of dreams and reality. Late-night studying takes an unexpected turn when the main character discovers a peculiar pill, sparking a sequence of bizarre events where the line between reality and the surreal blurs.
+
+The film delves into the psychological twists as the protagonist, head resting on the desk, encounters a series of inexplicable challenges. The scenes oscillate between the surreal, like being pushed underwater, and the ordinary, creating an immersive experience that leaves the audience questioning the nature of reality.
+
+To make the story more interactive, we decided to create multiple storylines and give users options to pick which storyline they want to view.
+
+Fever Dream invites viewers to contemplate the thin boundary between reality and the subconscious, taking them on a surreal journey that challenges the perception of what is real and what exists only in the recesses of the mind.
 
 
 ## Process 
@@ -31,13 +38,18 @@ We all brainstormed for different ideas and planned the process and wireframe of
   I worked mostly with html, css and the front page design for this assignment. It took an unnecessary amount of time specifically when designing the homepage because I was experiencing artist's block. I tried centering texts, manipulating fonts, playing around with colours but none seemed to coordinate harmoniously. In fact, we had to ditch our initial design idea because nothing seemed to align with our concept. I thought it was better to start anew rather than hold onto something that clearly wasn't working so I got to brainstorming other potential ideas. Unfortunately the vision didn't end up working because 1) it looked tacky on the website and 2) it was pixelated and low quality hence I had to scrap this too. In the end, I decided to go for minimalism which is how our front page came to fruition: pierre holding a red or blue pill, like those featured in the video, with a slight rainbow glow to symbolise hallucination. Whilst I was skeptical about this design, I think it worked the best out of all the other previous designs and took a significantly shorter time to produce. However, the positioning of everything using html was an immense pain. Everything had to be placed in this order, from background to foreground: 1) rainbow aura, 2) title, 3) pierre, 4) description/ slider. Whilst manipulating the z-index helped achieve this order, it also pushed certain divs from the center and so fixing this took an unprecedented amount of time.
   Furthermore, with regards to decorating the button with css, it was also an incredibly time consuming job as the effect we were trying to implement was so complicated. We found that our css button used scss code which we then had to translate into our familiar css. Hence the process served an arduous experience, there was a lot of guesswork involved. we included excluded specific parts of the code, moved it around to target a specific part of an element so that everything would work. Whilst some parts we found were lacking and would have liked to edit even further, we thought it was best the way it is, especially with considerations to the time constraint that we had determined for ourselves. We made it to mimic the red pill blue pill to show that these choices have major effects to the storyline. 
 
+**Pierre**:
+
+   After brainstorming, I crafted the script for the story. Creating the story demanded considerable effort as we aimed for authenticity and originality. I delved into research to explore ways to introduce the concept or the primary cause of the "hallucination" until I stumbled upon the ideal connecting element: the pill. This choice stemmed from the fact that drugs are one of the factors behind hallucinations, symbolized by the pill – not necessarily a drug itself but something entering the body to induce the desired effect. With the narrative structured and transitions between scenes set, we started filming. I was the solo actor in this short movie. However, it was more challenging than expected. We had to redo the shots several times because my appearance while acting didn't match how I had pictured it. Additionally, we encountered numerous hurdles during filming, resorting to borrowing a skateboard and having strangers help to capture the shots we needed just to mention a few. Shahd and I worked on preparing all the equipment and accessories for the shooting from the camera equipment to the rope and the colored pills.
+
+
 ## Reflection and Evaluation: 
 
 **Shahd**: I really enjoyed making the video and editing it. There was a lot of unused footage and we repeated many shots for accuracy reasons. To be honest I had so many doubts this idea would work; however, we all wanted to implement it and try our best to make it work. I believe this is why it worked out just fine. 
 
 Of Course there is still a lot that can be done to make it more complex and interesting but I liked it because we all go through things that we can not explain and that was our main goal for the story. I would have liked it more if we can make an about page and behind the scenes video
  
-**Izah**:
+**Izah**: 
 
 **Jiho**:
 
