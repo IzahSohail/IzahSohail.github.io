@@ -26,7 +26,7 @@ I had to work on a shot list, at least to imagine how things will work out. Then
 **Izah**: After collaboratively working on choosing a concept and story, my primary role was working on the website with Jiho. Given that the essence of our film revolves around a psychological experience, I aimed to ensure that the website's interface seamlessly complemented this theme. I worked a lot with JavaScript for this assignment to add more interactivity and create a more immersive experience. One of these interative features is the slider on the home page. The initial arrow (pill) position is strategically set as a percentage of the screen width. As users slide halfway across the slider, several dynamic changes occur:
   - The background color undergoes a smooth transition into a darker theme, symbolizing the initiation of the psychological journey. I considered changing the background back to the original one if the user slides back but decided not to as I feel this fits our concept better: once you reach a certain point, there is no returning
   - some text appears at the center of the screen offering users a brief insight into what lies ahead.
-  - background music starts playing. I initially wanted the background music to play automatically however, after a lot of playing around with code and searching online, I realised autoplay isn't possible. So I decided to implement the audio feature this way and personally, I believe this approach contributes significantly better to the overall user experience!
+  - background music starts playing. I initially wanted the background music to play automatically however, after a lot of playing around with code and searching online, I realised autoplay isn't possible. This was a very time consuming process as I spent a lot of time trying out different "hacks" but nothing ended up working. So I decided to implement the audio feature this way and personally, I believe this approach contributes significantly better to the overall user experience!
 
   Sliding all the way to the end of the slider takes the user to the video experience page. 
   
@@ -50,7 +50,9 @@ I had to work on a shot list, at least to imagine how things will work out. Then
 
 Of Course there is still a lot that can be done to make it more complex and interesting but I liked it because we all go through things that we can not explain and that was our main goal for the story. I would have liked it more if we can make an about page and behind the scenes video
  
-**Izah**: 
+**Izah**: Reflecting on the creation of this project, working on the website was both frustrating and immensely rewarding. Navigating the intricacies of JavaScript became a central challenge, yet through this assignment, I found myself gaining a much stronger grasp of the language. The frustration of figuring out the optimal positioning of different elements on the site tested my patience, but the end result made it worth the effort.
+
+While the project could have been made better with additional storylines, I am still overall very satisfied with what we have bee able to create.
 
 **Jiho**:
 
