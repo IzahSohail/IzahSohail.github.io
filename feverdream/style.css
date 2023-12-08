@@ -115,8 +115,10 @@ h1, .about_vid {
 
 #bts-button{
   position: absolute;
-  top: 92%;
-  left: 90%;
-  transform: translate(-40%, -50%);
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
+  border:none;
+  white-space: nowrap; /* This ensures that the text doesn't wrap to the next line */
 }
