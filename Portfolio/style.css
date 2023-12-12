@@ -66,6 +66,9 @@ body {
 .role-text{
     font-size: 2em;
     color:white;
+    margin-left:30px;
+    margin-right: 30px;
+    text-align: center;
 }
 
 #changingRole {
@@ -90,35 +93,32 @@ body {
     font-family: Unbounded;
     font-size: 2em;
     color: #da5698;
-    margin-left: 70px;
+    margin-left: 50px; /* Adjusted for left alignment */
     padding-top: 40px;
-    padding-bottom: 0px;
 }
 
-.projects-header h1 {
-    font-size: 2em;
-}
 
 .project-container {
     background-color: #ffffff99;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    position: relative; /* Add this line for positioning */
+    position: relative;
 }
 
 .project-description {
-    margin: 70px;
+    margin: 40px 0; /* Adjusted for spacing */
 }
 
 .project-content {
+    margin-left: 50px;
     display: flex;
     flex-direction: row;
-    align-items: center; /* Center vertically */
+    align-items: center;
 }
 
 .project-image {
-    max-width: 100%;
+    max-width: 400px;
     height: auto;
 }
 
@@ -129,129 +129,95 @@ body {
 
 .project-text {
     padding-left: 40px;
+    margin-right: 100px;
 }
 
-.project-text h2{
+.project-text h2 {
     color: #da5698;
     display: block;
     font-weight: bold;
-    padding-bottom: 30px;;
+    padding-bottom: 10px;
 }
 
 .project-text p {
     font-size: 1.2em;
 }
 
-
 #nextButton {
-    position: absolute;
-    bottom: 150px; /* Adjust the distance from the bottom */
-    right: 100px; /* Adjust the distance from the right */
-}
-
-
-/* .project {
-    color: white;
-    margin: 70px;
-}
-
-.project-description {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.project-text {
-    color: black;
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-}
-
-.project-description h2 {
-    color: #da5698;
-    display: block;
-    padding-bottom: 20px;
-}
-
-.project-description p {
-    font-size: 1.2em;
-}
-
-.project img {
-    max-width: 400px;
-    max-height: 400px;
-    margin-right: 20px;
-}
-
-.project img:hover {
-    transform: scale(1.05);
-    transition: transform 0.5s ease;
-} */
-
-#nextButton {
-    display: block;
     margin: 20px auto;
     margin-left: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
-}
-
-#nextButton:hover {
+ }
+ 
+ #nextButton:hover {
     transform: scale(1.1);
-}
+ }
 
-@media only screen and (max-width: 800px){
+ .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+ 
+
+@media only screen and (max-width: 900px) {
+    .intro-text {
+        font-size: 4em;
+    }
+
     .projects-header {
         font-family: Unbounded;
-        font-size: 2em;
+        font-size: 1.1em;
         color: #da5698;
-        margin: auto;
-        padding-top: 40px;
-        padding-bottom: 0px;
+        margin: 0;
+        margin-bottom:20px;
+        margin-top:0px;
+
     }
-    
-    .projects-header h1 {
-        font-size: 2em;
-    }
-    
+
     .project-container {
         background-color: #ffffff99;
-        height: auto; /* Adjusted from 100vh to auto */
+        height: 100vh; /* Adjusted from 100vh to auto */
         display: flex;
         flex-direction: column;
+        align-items: center;
         position: relative;
+     
     }
-    
+
     .project-description {
-        margin: 70px;
+        margin:auto;
+        margin-top: 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-    
+
     .project-content {
+        margin: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
+        padding-top:0px;
     }
-    
+
     .project-image {
-        max-width: 100%;
+        max-width: 60%;
         height: auto;
-        margin-bottom: 20px;
     }
-    
+
     .project-image:hover {
         transform: scale(1.05);
         transition: transform 0.5s ease;
     }
-    
+
     .project-text {
-        text-align: center;
+        margin-top:20px;
+        margin-left:30px;
     }
-    
+
     .project-text h2 {
         color: #da5698;
         display: block;
@@ -259,28 +225,26 @@ body {
         padding-bottom: 15px;
         font-size: 1.5em;
     }
-    
+
     .project-text p {
-        font-size: 1em;
+        font-size: 97%;
         margin-bottom: 20px;
     }
-    
+
     #nextButton {
-        position: absolute;
-        max-width: 50%;
+        position: relative;
+        width:5%;
         bottom: 20px;
-        left: 50%;
         transform: translateX(-50%);
         cursor: pointer;
         transition: transform 0.3s ease;
     }
-    
+
     #nextButton:hover {
         transform: scale(1.1);
     }
-    
-    
 }
+
 
 .illustrations-intro-container{
     height: 100vh;

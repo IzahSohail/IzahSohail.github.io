@@ -42,23 +42,6 @@ document.addEventListener("DOMContentLoaded", function () {
     typeOutWord(roles[currentRoleIndex], 0);
 });
 
-
-document.addEventListener("DOMContentLoaded", function () {
-    var projectsHeader = document.getElementById("projects");
-
-    window.addEventListener("scroll", function () {
-        var scrollPosition = window.scrollY;
-
-        // Adjust this value based on when you want the sliding effect to start
-        var triggerPosition = 50;
-
-        if (scrollPosition > triggerPosition) {
-            projectsHeader.classList.add("slide-in");
-        } else {
-            projectsHeader.classList.remove("slide-in");
-        }
-    });
-});
 // project-slider.js
 
 document.addEventListener('DOMContentLoaded', function () {
