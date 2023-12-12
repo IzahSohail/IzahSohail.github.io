@@ -4,6 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <title>Portfolio</title>
+    <!-- Swiper.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css">
@@ -25,7 +28,7 @@
                         <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Illustrations</a>
+                        <a class="nav-link" href="#illustrations">Illustrations</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -81,11 +84,97 @@
         <img id="nextButton" src="/images/next.png" class="img-fluid" alt="Next" />
     </section>
     <section class = "illustrations-intro-container container-fluid">
-        <div class="illustrations-intro-text">
+        <div class="illustrations-intro-text hidden" id="introText">
             <p>"An artist cannot <span id ="bold" >fail</span><br> It is a <span id ="bold">success</span> to be one"</p>
     </section>
+    <section class="illustrations container-fluid" id="illustrations">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+    
+              <div class="swiper-slide">
+                <img
+                  src="/images/blossom.png"
+                  alt="" />
+                <div class="content">
+                  <div class="title">
+                    <h1>
+                      <span class="white-point"></span> Blossom
+                      <span class="white-point"></span>
+                    </h1>
+                    <h3>PowerPuff Girls</h3>
+                  </div>
+                  <p>
+                    I love making illustrations of my favourite fictional characters. Growing up,
+                    blossom was always my favourite among the PowerPuff girls and so I decided to make an illustration of her. I used a lot of pink and red to show her personality.
+                  </p>
+                </div>
+              </div>
+    
+              <div class="swiper-slide">
+                <img
+                  src="/images/blair.png"
+                  alt="" />
+                <div class="content">
+                  <div class="title">
+                    <h1>
+                      <span class="white-point"></span> What would Blair Waldorf do?
+                      <span class="white-point"></span>
+                    </h1>
+                    <h3>Gossip Girl</h3>
+                  </div>
+                  <p>
+                    A simple illustration I made to capture the characters essense. I tried to illustrate her wedding look here.
+                  </p>
+                </div>
+              </div>
+    
+              <div class="swiper-slide">
+                <img
+                  src="/images/cat.png" alt="cat" />
+                <div class="content">
+                  <div class="title">
+                    <h1>
+                      <span class="white-point"></span> The cat
+                      <span class="white-point"></span>
+                    </h1>
+
+                  </div>
+                  <p>
+                    I love cats.
+                  </p>
+                </div>
+              </div>
+    
+              <div class="swiper-slide">
+                <img
+                  src="/images/joey.png" alt="" />
+                <div class="content">
+                  <div class="title">
+                    <h1>
+                      <span class="white-point"></span> Joey
+                      <span class="white-point"></span>
+                    </h1>
+                    <h3>Friends</h3>
+                  </div>
+                  <p>
+                    How you doin'? It's none other than Joey Tribbiani from Friends! Joey is my favourite character from
+                    the show and I wanted to draw him in a way that would show his personality. I used a lot of bright colours to show his fun and outgoing personality. 
+                    His iconic line "How you doin'?" is written in the background.
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+      </section>
+      
+    
 
     
+    <!-- Swiper.js JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

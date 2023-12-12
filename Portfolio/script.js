@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
     typeOutWord(roles[currentRoleIndex], 0);
 });
 
+
 // project-slider.js
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -77,7 +78,37 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Show the initial project
     showProject();
+
+    var swiper = new Swiper(".swiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        loop: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+      
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener("scroll", function () {
+        var introText = document.getElementById("introText");
 
+        // Calculate the scroll position
+        var scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 
+        // Adjust the visibility of the intro text based on the scroll position
+        if (scrollPosition > introText.offsetTop - window.innerHeight / 2) {
+            introText.classList.remove("hidden");
+            introText.style.transition = "transform 0.5s ease-out"; // Add transition property here
+            introText.style.transform = "translateX(0)"; // Move the text back to its original position
+        } else {
+            introText.style.transform = "translateX(-190%)"; // Move the text to the left when not visible
+        }
+    });
+});

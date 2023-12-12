@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-	background: linear-gradient(-45deg, #f47cb9, #f4c868 );
+	background: linear-gradient(-85deg, #da5698, rgb(255, 95, 95) );
 	background-size: 1000% 1000%;
 	animation: gradient 10s ease infinite;
 	height: 100vh;
@@ -99,7 +99,7 @@ body {
 
 
 .project-container {
-    background-color: #ffffff99;
+    background-color: #ffffffd3;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -115,6 +115,10 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    border: 1px solid #da5698;
+    border-radius: 5px;
+    margin-right: 90px;
+    padding: 10px;
 }
 
 .project-image {
@@ -129,7 +133,8 @@ body {
 
 .project-text {
     padding-left: 40px;
-    margin-right: 100px;
+    margin-right: 20px;
+    color: #9a054f;
 }
 
 .project-text h2 {
@@ -144,10 +149,13 @@ body {
 }
 
 #nextButton {
-    margin: 20px auto;
-    margin-left: auto;
+    position:absolute;
+    right:10%;
+    bottom: 5%;
+    margin-left: 100px;
     cursor: pointer;
     transition: transform 0.3s ease;
+  
  }
  
  #nextButton:hover {
@@ -160,13 +168,12 @@ body {
 }
  
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
     .intro-text {
         font-size: 4em;
     }
 
     .projects-header {
-        font-family: Unbounded;
         font-size: 1.1em;
         color: #da5698;
         margin: 0;
@@ -176,7 +183,6 @@ body {
     }
 
     .project-container {
-        background-color: #ffffff99;
         height: 100vh; /* Adjusted from 100vh to auto */
         display: flex;
         flex-direction: column;
@@ -195,7 +201,8 @@ body {
     }
 
     .project-content {
-        margin: auto;
+        margin: 50px;
+        margin-top:0px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -206,6 +213,7 @@ body {
     .project-image {
         max-width: 60%;
         height: auto;
+        padding-top: 10px;
     }
 
     .project-image:hover {
@@ -215,7 +223,7 @@ body {
 
     .project-text {
         margin-top:20px;
-        margin-left:30px;
+        padding-left: 10px;
     }
 
     .project-text h2 {
@@ -228,11 +236,13 @@ body {
 
     .project-text p {
         font-size: 97%;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
 
     #nextButton {
         position: relative;
+        margin:auto;
+        left:5%;
         width:5%;
         bottom: 20px;
         transform: translateX(-50%);
@@ -246,9 +256,9 @@ body {
 }
 
 
-.illustrations-intro-container{
-    height: 100vh;
-    color:white;
+.illustrations-intro-container {
+    height: 50vh;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,15 +266,121 @@ body {
     font-family: Unbounded;
 }
 
-.illustrations-intro-text{
+.illustrations-intro-text {
     color: white;
     text-align: center;
     font-size: 2em;
     padding: 40px;
+    transition: transform 0.8s ease-out; /* Add a transition for smooth animation */
 }
+
+.hidden {
+    transform: translateX(-100%);
+    opacity: 0; /* Optionally, you can also set opacity to 0 for a fade-in effect */
+    visibility: hidden; /* Optionally, you can also hide the element from the accessibility tree */
+}
+
+
+
 
 #bold{
     font-style: italic;
     font-weight: bold;
 }
 
+/* .illustrations container */
+.illustrations {
+    background-color: #ffffffd3;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevent horizontal scrollbar due to centered content */
+}
+
+/* SWIPER */
+.swiper {
+    max-width: 850px;
+    width: 100%; /* Adjusted to take full width within the container */
+    aspect-ratio: 5/3;
+    z-index: 10;
+    position: relative; /* Ensure proper positioning */
+}
+
+  
+.swiper-pagination {
+    transform: translateY(-10px);
+    z-index: 10;
+    --swiper-pagination-color: #7edd90;
+    --swiper-pagination-bullet-size: 12px;
+    --swiper-pagination-bullet-horizontal-gap: 5px;
+  }
+  
+.swiper-slide {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    place-items: center;
+    gap: 15px;
+    padding: 20px 40px 20px 20px;
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background: #9a054f;
+    box-shadow: inset 18px 18px 8px rgba(0, 0, 0, 0.2),
+      inset -10px -18px 8px rgba(255, 255, 255, 0.1);
+  }
+  
+.swiper-slide > img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    filter: grayscale(40%);
+  }
+  
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    color: #fff;
+  }
+  
+.title > h1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 1.4;
+    letter-spacing: 0.2rem;
+    font-size: 1.3rem;
+  }
+  
+.title > h3 {
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+    color: #91969f;
+    font-size: 1.1rem;
+  }
+  
+.content > p {
+    line-height: 1.5;
+    color: #d7e2f5;
+    font-size: 1rem;
+  }
+  
+.white-point {
+    display: inline-flex;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+  
+  
+  @media (max-width: 800px) {
+    
+    .swiper {
+      max-width: 650px;
+    }
+  }
+  
