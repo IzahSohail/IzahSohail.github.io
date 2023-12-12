@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Unbounded";
-    src: url(/fonts/Unbounded/Unbounded-VariableFont_wght.ttf) format("truetype");
+    src: url(Unbounded/Unbounded-VariableFont_wght.ttf) format("truetype");
 }
 
 html, body {
