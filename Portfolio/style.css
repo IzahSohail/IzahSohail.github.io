@@ -201,6 +201,86 @@ body {
     transform: scale(1.1);
 }
 
+@media only screen and (max-width: 800px){
+    .projects-header {
+        font-family: Unbounded;
+        font-size: 2em;
+        color: #da5698;
+        margin: auto;
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    
+    .projects-header h1 {
+        font-size: 2em;
+    }
+    
+    .project-container {
+        background-color: #ffffff99;
+        height: auto; /* Adjusted from 100vh to auto */
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .project-description {
+        margin: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .project-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .project-image {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .project-image:hover {
+        transform: scale(1.05);
+        transition: transform 0.5s ease;
+    }
+    
+    .project-text {
+        text-align: center;
+    }
+    
+    .project-text h2 {
+        color: #da5698;
+        display: block;
+        font-weight: bold;
+        padding-bottom: 15px;
+        font-size: 1.5em;
+    }
+    
+    .project-text p {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+    
+    #nextButton {
+        position: absolute;
+        max-width: 50%;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    
+    #nextButton:hover {
+        transform: scale(1.1);
+    }
+    
+    
+}
 
 .illustrations-intro-container{
     height: 100vh;
