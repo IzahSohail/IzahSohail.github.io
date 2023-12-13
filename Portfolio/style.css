@@ -78,13 +78,6 @@ body {
     text-align: center;
 }
 
-.sun-image {
-    position: relative;
-    width: 150px;
-    height: auto;
-    bottom: 580px; 
-    left: 63%; 
-}
 
 #changingRole {
     display: inline-block;
@@ -158,11 +151,7 @@ body {
     transform: translateX(0);
 }
 
-.tape-image{
-    width: 300px;
-    height: auto;
-    padding-bottom:50px;
-}
+
 
 .projects-header {
     font-family: Unbounded;
@@ -289,23 +278,6 @@ body {
     margin-bottom: 50px;
 }
 
-.tape-image {
-    position: absolute;
-    width: 200px;
-    height: auto;
-    left:10%;
-    z-index: 2; 
-}
-.tape-image2 {
-    position: absolute;
-    width: 200px;
-    height: auto;
-    left:75%;
-
-    z-index: 2; 
-}
-
-
 /*Carousel styles */
 .carousel {
     max-width: 600px;
@@ -426,14 +398,6 @@ textarea {
         font-size: 4em;
     }
 
-    .sun-image {
-        position: relative;
-        width: 120px;
-        height: auto;
-        bottom: 570px; 
-        left: 70%; 
-    }
-
     
     .about-me-content {
         padding: 0 20px;
@@ -518,19 +482,4 @@ textarea {
         transform: scale(1.1);
     }
 
-    .tape-image {
-        position: absolute;
-        width: 150px;
-        height: auto;
-        left:10%;
-        z-index: 2; /* makes sure the sticker is on top of the sections */
-    }
-    .tape-image2 {
-        position: absolute;
-        width: 150px;
-        height: auto;
-        left:70%;
-    
-        z-index: 2; 
-    }
 }
