@@ -142,7 +142,7 @@ body {
     font-size: 2.2em;
     color: #9a054f;
     margin-left: 50px; /* Adjusted for left alignment */
-    padding-top: 60px;
+    padding-top: 20px;
 
 }
 
@@ -165,7 +165,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 1px solid #9a054f;
+    border: 3px solid #9a054f;
     border-radius: 5px;
     margin-right: 90px;
     padding: 10px;
@@ -200,7 +200,7 @@ body {
 
 #nextButton {
     position:absolute;
-    left:41%;
+    left:40%;
     bottom: 2%;
     margin-left: 100px;
     cursor: pointer;
