@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
             introText.style.transition = "transform 0.5s ease-out"; // Add transition property here
             introText.style.transform = "translateX(0)"; // Move the text back to its original position
         } else {
-            introText.style.transform = "translateX(-190%)"; // Move the text to the left when not visible
+            introText.style.transform = "translateX(-180%)"; // Move the text to the left when not visible
         }
     });
 });

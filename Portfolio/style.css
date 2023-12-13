@@ -257,8 +257,9 @@ body {
 
 
 .illustrations-intro-container {
-    height: 50vh;
+    height: 100vh;
     color: white;
+    background-color: #ffffffd3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,16 +272,14 @@ body {
     text-align: center;
     font-size: 2em;
     padding: 40px;
-    transition: transform 0.8s ease-out; /* Add a transition for smooth animation */
+    transition: transform 0.5s ease-out; /* Add a transition for smooth animation */
 }
 
 .hidden {
-    transform: translateX(-100%);
+    transform: translateX(-190%);
     opacity: 0; /* Optionally, you can also set opacity to 0 for a fade-in effect */
     visibility: hidden; /* Optionally, you can also hide the element from the accessibility tree */
 }
-
-
 
 
 #bold{
@@ -382,5 +381,71 @@ body {
     .swiper {
       max-width: 650px;
     }
+    /* Additional styles for responsive form groups */
+    .form-control{
+        margin-left: 20px;
+        margin-right:20px;
+    }
+
   }
   
+
+/* footer styles */
+.contact-container {
+    background-color: #ffffffd3;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-header {
+    font-family: Unbounded;
+    font-size: 2em;
+    color: #da5698;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn-primary {
+    background-color: #da5698;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #9a054f;
+}
+
+.social-links {
+    margin-top: 30px;
+}
+
+.social-link {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.2em;
+    color: #da5698;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: #9a054f;
+}
