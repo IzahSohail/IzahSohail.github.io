@@ -1,10 +1,11 @@
 @font-face {
     font-family: "Unbounded";
-    src: url(Unbounded/Unbounded-VariableFont_wght.ttf) format("truetype");
+    src: url(https://izahsohail.github.io/Portfolio/Unbounded/Unbounded-VariableFont_wght.ttf) format("truetype");
 }
 @font-face{
     font-family: "Indie";
-    src: url(/fonts/Indie_Flower/IndieFlower-Regular.ttf) format("truetype");
+    src: url(https://izahsohail.github.io/Portfolio/fonts/Indie_Flower/IndieFlower-Regular.ttf) format("truetype");
+    font-weight: bold;
 
 }
 
@@ -42,8 +43,6 @@ body {
 /* nav bar styles */
 .navbar-nav .nav-item a {
     color: white !important;
-    font-family: Indie;
-    font-size: 1.2em;
 
 }
 
@@ -138,7 +137,6 @@ body {
 }
 
 .about-me-content p {
-    font-family: Indie;
     font-size: 1.2em;
     margin-bottom: 20px;
 }
@@ -183,8 +181,7 @@ body {
 }
 
 .project-description {
-    margin: 40px 0;
-    font-family: Indie; 
+    margin: 40px 0; 
 }
 
 .project-content {
@@ -192,7 +189,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-
+    border: 2px solid #9a054f;
     margin-right: 90px;
 }
 
@@ -333,9 +330,6 @@ body {
     color: #fff;
 }
 
-.carousel-caption p{
-    font-family: Indie; 
-}
 .carousel-control-prev,
 .carousel-control-next {
     color: #da5698;
@@ -379,7 +373,6 @@ body {
 
 .form-group {
     margin-bottom: 20px;
-    font-family: Indie;
 }
 
 .form-control {
@@ -397,7 +390,6 @@ textarea {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    font-family: Indie;
 }
 
 .btn-primary:hover {
@@ -406,7 +398,6 @@ textarea {
 
 .social-links {
     margin-top: 30px;
-    font-family:Indie;
 }
 
 .social-links h3{
