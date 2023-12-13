@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-	background: linear-gradient(-85deg, #da5698, rgb(255, 95, 95) );
+	background: linear-gradient(-85deg, #da5698, #efbfa9);
 	background-size: 1000% 1000%;
 	animation: gradient 10s ease infinite;
 	height: 100vh;
@@ -152,7 +152,7 @@ body {
 
 #nextButton {
     position:absolute;
-    left:43%;
+    left:41%;
     bottom: 2%;
     margin-left: 100px;
     cursor: pointer;
@@ -258,24 +258,6 @@ body {
 }
 
 
-.illustrations-intro-container {
-    height: 100vh;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: Unbounded;
-}
-
-.illustrations-intro-text {
-    color: white;
-    text-align: center;
-    font-size: 2em;
-    padding: 40px;
-    transition: transform 0.5s ease-out; /* Add a transition for smooth animation */
-}
-
 .hidden {
     transform: translateX(-190%);
     opacity: 0; /* Optionally, you can also set opacity to 0 for a fade-in effect */
@@ -301,7 +283,7 @@ body {
     font-family: Unbounded;
     font-size: 2em;
     color: #da5698;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .carousel {
