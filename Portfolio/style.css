@@ -184,6 +184,7 @@ body {
 
 .project-description {
     margin: 40px 0;
+	border: 1px solid #9a054f;
 }
 
 .project-content {
