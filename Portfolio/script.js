@@ -97,3 +97,63 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener("scroll", function () {
+        var illustrations = document.querySelector(".illustrations");
+        var carousel = document.querySelector(".carousel");
+
+        // Calculate the scroll position
+        var scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+
+        // Adjust the visibility of the illustrations and carousel based on the scroll position
+        if (scrollPosition > illustrations.offsetTop - window.innerHeight / 2) {
+            illustrations.classList.add("show");
+        }
+
+        if (scrollPosition > carousel.offsetTop - window.innerHeight / 2) {
+            carousel.classList.add("show");
+        }
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener("scroll", function () {
+        var projects = document.querySelector(".project-container");
+
+        // Calculate the scroll position
+        var scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+
+        // Adjust the visibility of the projects based on the scroll position
+        if (scrollPosition > projects.offsetTop - window.innerHeight / 2) {
+            projects.classList.add("show");
+        }
+    });
+});
+document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener("scroll", function () {
+        var contactContainer = document.querySelector(".contact-container");
+
+        // Calculate the scroll position
+        var scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+
+        // Adjust the visibility of the contact container based on the scroll position
+        if (scrollPosition > contactContainer.offsetTop - window.innerHeight / 2) {
+            contactContainer.classList.add("show");
+        }
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener("scroll", function () {
+        var aboutMeContainer = document.querySelector(".about-me-container");
+
+        // Calculate the scroll position
+        var scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+
+        // Adjust the visibility of the about me container based on the scroll position
+        if (scrollPosition > aboutMeContainer.offsetTop - window.innerHeight / 2) {
+            aboutMeContainer.classList.add("show");
+        }
+    });
+});
