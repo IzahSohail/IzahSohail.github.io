@@ -184,7 +184,6 @@ body {
 
 .project-description {
     margin: 40px 0;
-    font-family: Indie; 
 }
 
 .project-content {
@@ -333,9 +332,6 @@ body {
     color: #fff;
 }
 
-.carousel-caption p{
-    font-family: Indie; 
-}
 .carousel-control-prev,
 .carousel-control-next {
     color: #da5698;
@@ -379,7 +375,6 @@ body {
 
 .form-group {
     margin-bottom: 20px;
-    font-family: Indie;
 }
 
 .form-control {
@@ -397,7 +392,6 @@ textarea {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    font-family: Indie;
 }
 
 .btn-primary:hover {
