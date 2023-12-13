@@ -71,6 +71,14 @@ body {
     text-align: center;
 }
 
+.sun-image {
+    position: relative;
+    width: 150px;
+    height: auto;
+    bottom: 580px; /* Adjust the positioning as needed */
+    left: 63%; /* Adjust the positioning as needed */
+}
+
 #changingRole {
     display: inline-block;
     font-weight: bold;
@@ -100,14 +108,26 @@ body {
     font-family: Unbounded;
     font-size: 2em;
     color: #9a054f;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart-image{
+    width: 80px;
+    height: auto;
+    padding-bottom:50px;
 }
 
 .about-me-content {
     max-width: 800px;
     margin: 0 auto;
     text-align: left;
-    color:#da5698
+    color:#da5698;
+    padding-top: 0px;
+    margin-top:0px;
 }
 
 .about-me-content p {
@@ -130,12 +150,11 @@ body {
     transform: translateX(0);
 }
 
-@media only screen and (max-width: 950px) {
-    .about-me-content {
-        padding: 0 20px;
-    }
+.tape-image{
+    width: 300px;
+    height: auto;
+    padding-bottom:50px;
 }
-
 
 .projects-header {
     font-family: Unbounded;
@@ -218,6 +237,19 @@ body {
 @media only screen and (max-width: 950px) {
     .intro-text {
         font-size: 4em;
+    }
+
+    .sun-image {
+        position: relative;
+        width: 120px;
+        height: auto;
+        bottom: 570px; /* Adjust the positioning as needed */
+        left: 70%; /* Adjust the positioning as needed */
+    }
+
+    
+    .about-me-content {
+        padding: 0 20px;
     }
 
     .projects-header {
@@ -332,6 +364,7 @@ body {
     opacity: 0;
     transform: translateX(-50%);
     transition: opacity 1s ease, transform 1s ease;
+    position: relative; /* Add position relative to make z-index work */
 }
 
 .illustrations.show {
@@ -345,6 +378,23 @@ body {
     color: #9a054f;
     margin-bottom: 50px;
 }
+
+.tape-image {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left:10%;
+    z-index: 2; /* Set a higher z-index value to bring it to the front */
+}
+.tape-image2 {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left:75%;
+
+    z-index: 2; /* Set a higher z-index value to bring it to the front */
+}
+
 
 /*Carousel styles */
 .carousel {
@@ -458,3 +508,4 @@ textarea {
 .social-link:hover {
     color: #9a054f;
 }
+
