@@ -80,6 +80,8 @@ document.addEventListener('DOMContentLoaded', function () {
     showProject();
 });
 
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", function () {
         var introText = document.getElementById("introText");

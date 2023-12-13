@@ -141,7 +141,6 @@ body {
     font-family: Unbounded;
     font-size: 2.2em;
     color: #9a054f;
-    margin-left: 50px; /* Adjusted for left alignment */
     padding-top: 20px;
 
 }
@@ -166,9 +165,7 @@ body {
     flex-direction: row;
     align-items: center;
     border: 2px solid #9a054f;
-    border-radius: 5px;
     margin-right: 90px;
-    padding: 10px;
 }
 
 .project-image {
@@ -316,8 +313,8 @@ body {
 
 .hidden {
     transform: translateX(-190%);
-    opacity: 0; /* Optionally, you can also set opacity to 0 for a fade-in effect */
-    visibility: hidden; /* Optionally, you can also hide the element from the accessibility tree */
+    opacity: 0; 
+    visibility: hidden; 
 }
 
 
@@ -349,6 +346,7 @@ body {
     margin-bottom: 50px;
 }
 
+/*Carousel styles */
 .carousel {
     max-width: 600px;
     margin: 0 auto;
