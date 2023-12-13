@@ -86,10 +86,10 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", function () {
         var introText = document.getElementById("introText");
 
-        // Calculate the scroll position
+        // scroll position
         var scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 
-        // Adjust the visibility of the intro text based on the scroll position
+        //visibility of the intro text based on the scroll position
         if (scrollPosition > introText.offsetTop - window.innerHeight / 2) {
             introText.classList.remove("hidden");
             introText.style.transition = "transform 0.5s ease-out"; // Add transition property here
@@ -105,10 +105,10 @@ document.addEventListener("DOMContentLoaded", function () {
         var illustrations = document.querySelector(".illustrations");
         var carousel = document.querySelector(".carousel");
 
-        // Calculate the scroll position
+        //scroll position
         var scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 
-        // Adjust the visibility of the illustrations and carousel based on the scroll position
+        // visibility of the illustrations and carousel based on the scroll position
         if (scrollPosition > illustrations.offsetTop - window.innerHeight / 2) {
             illustrations.classList.add("show");
         }
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Calculate the scroll position
         var scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 
-        // Adjust the visibility of the projects based on the scroll position
+        // visibility of the projects based on the scroll position
         if (scrollPosition > projects.offsetTop - window.innerHeight / 2) {
             projects.classList.add("show");
         }
@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Calculate the scroll position
         var scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 
-        // Adjust the visibility of the contact container based on the scroll position
+        // visibility of the contact container based on the scroll position
         if (scrollPosition > contactContainer.offsetTop - window.innerHeight / 2) {
             contactContainer.classList.add("show");
         }
@@ -150,10 +150,10 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", function () {
         var aboutMeContainer = document.querySelector(".about-me-container");
 
-        // Calculate the scroll position
+        //  scroll position
         var scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 
-        // Adjust the visibility of the about me container based on the scroll position
+        // visibility of the about me container based on the scroll position
         if (scrollPosition > aboutMeContainer.offsetTop - window.innerHeight / 2) {
             aboutMeContainer.classList.add("show");
         }
