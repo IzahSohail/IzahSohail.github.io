@@ -43,6 +43,7 @@ body {
 /* nav bar styles */
 .navbar-nav .nav-item a {
     color: white !important;
+    font-family: Indie;
 
 }
 
@@ -139,6 +140,7 @@ body {
 .about-me-content p {
     font-size: 1.2em;
     margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .about-me-container {
     background-color: #ffffffd3;
@@ -154,12 +156,6 @@ body {
 .about-me-container.show {
     opacity: 1;
     transform: translateX(0);
-}
-
-.tape-image{
-    width: 300px;
-    height: auto;
-    padding-bottom:50px;
 }
 
 .projects-header {
@@ -286,22 +282,6 @@ body {
     margin-bottom: 50px;
 }
 
-.tape-image {
-    position: absolute;
-    width: 200px;
-    height: auto;
-    left:10%;
-    z-index: 2; 
-}
-.tape-image2 {
-    position: absolute;
-    width: 200px;
-    height: auto;
-    left:75%;
-
-    z-index: 2; 
-}
-
 
 /*Carousel styles */
 .carousel {
@@ -419,7 +399,7 @@ textarea {
 /* media queries */
 @media only screen and (max-width: 950px) {
     .intro-text {
-        font-size: 4em;
+        font-size: 3em;
     }
 
     .sun-image {
@@ -427,7 +407,7 @@ textarea {
         width: 120px;
         height: auto;
         bottom: 570px; 
-        left: 70%; 
+        left: 67%; 
     }
 
     
@@ -512,21 +492,5 @@ textarea {
 
     #nextButton:hover {
         transform: scale(1.1);
-    }
-
-    .tape-image {
-        position: absolute;
-        width: 150px;
-        height: auto;
-        left:10%;
-        z-index: 2; /* makes sure the sticker is on top of the sections */
-    }
-    .tape-image2 {
-        position: absolute;
-        width: 150px;
-        height: auto;
-        left:70%;
-    
-        z-index: 2; 
     }
 }

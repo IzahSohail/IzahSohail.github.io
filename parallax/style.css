@@ -22,7 +22,7 @@ body {
 #nav {
     position: fixed; /* Fix the navigation bar in place */
     right: 20px; /* Position it 20 pixels from the right */
-    top: 80%; /* Position it vertically at 50% from the top */
+    top: 50%; /* Position it vertically at 50% from the top */
     transform: translateY(-180%); /* Move it up by 180% of its height */
     z-index: 1; /* Set the stacking order of the navigation bar */
     padding: 10px; /* Add padding for better visibility */
@@ -47,10 +47,8 @@ body {
     color: rgb(61, 129, 90); /* Change text color on hover */
 }
 
-color: black;
-
 /* Parallax section styling */
-#about, #mosque, #North, #Food, #people {
+#flag, #mosque, #North, #Food, #people {
     height: 100%; /* Set height of div to 100% */
     background-attachment: fixed; /* Fix background image while scrolling */
     background-size: cover; /* Scale background image to cover the container */
@@ -58,25 +56,10 @@ color: black;
 }
 
 /* Styling for the flag section */
-#about {
-	background: linear-gradient(-45deg, #f47cb9, #f4c868 );
-	background-size: 1000% 1000%;
-	animation: gradient 10s ease infinite;
-	height: 100vh;
-    overflow-x: hidden; /* Prevent horizontal scrollbar during animation */
+#flag {
+    background-image: url('images/flag.jpg'); /* Set background image using URL */
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
 /* Styling for the mosque section */
 #mosque {
     background-image: url('images/mosque.jpg'); /* Set background image using URL */
@@ -143,7 +126,7 @@ color: black;
 }
 
 /* Styling for the text sections */
-.projects-section {
+.text-section {
     height: 100vh; /* Set height to 100% of the viewport height */
     background-position: center; /* Center background image */
     background-attachment: fixed; /* Fix background image while scrolling */
