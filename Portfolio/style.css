@@ -78,13 +78,6 @@ body {
     text-align: center;
 }
 
-.sun-image {
-    position: relative;
-    width: 150px;
-    height: auto;
-    bottom: 580px; 
-    left: 63%; 
-}
 
 #changingRole {
     display: inline-block;
@@ -281,7 +274,6 @@ body {
     color: #9a054f;
     margin-bottom: 50px;
 }
-
 
 /*Carousel styles */
 .carousel {
